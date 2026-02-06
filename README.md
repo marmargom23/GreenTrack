@@ -42,7 +42,7 @@ GreenTrack/
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/GreenTrack.git
+git clone https://github.com/marmargom23/GreenTrack.git
 cd GreenTrack
 ```
 
@@ -148,20 +148,6 @@ Tablas utilizadas:
 - `ConsumoEnergetico`
 - `Objetivos`
 - `Recomendaciones`
-
----
-
-## 📦 Entrega en Aules
-
-Para cumplir con el límite de 50 MB:
-
-- **NO subas `node_modules`**
-- **NO subas `.env`**
-- Entrega un ZIP con:
-  - Memoria
-  - Enlace a GitHub
-  - Capturas
-  - Explicación de instalación
 
 ---
 
