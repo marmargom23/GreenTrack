@@ -1,0 +1,55 @@
+<h2>Objetivos</h2>
+
+<div class="grid">
+  <!-- HISTÓRICO -->
+  <mat-card class="left">
+    <mat-card-title>Histórico de objetivos</mat-card-title>
+
+    <table mat-table [dataSource]="objetivos" class="mat-elevation-z2 full">
+      <!-- Mes -->
+      <ng-container matColumnDef="mes">
+        <th mat-header-cell *matHeaderCellDef>Mes</th>
+        <td mat-cell *matCellDef="let o">{{ o.mes }}</td>
+      </ng-container>
+
+      <!-- Año -->
+      <ng-container matColumnDef="anio">
+        <th mat-header-cell *matHeaderCellDef>Año</th>
+        <td mat-cell *matCellDef="let o">{{ o.anio }}</td>
+      </ng-container>
+
+      <!-- Límite -->
+      <ng-container matColumnDef="limiteKwh">
+        <th mat-header-cell *matHeaderCellDef>Límite kWh</th>
+        <td mat-cell *matCellDef="let o">{{ o.limiteKwh }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+  </mat-card>
+
+  <!-- FORMULARIO -->
+  <mat-card class="right">
+    <mat-card-title>Definir objetivo</mat-card-title>
+
+    <form (ngSubmit)="handleSubmit()">
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Mes</mat-label>
+        <input matInput [(ngModel)]="form.mes" name="mes" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Año</mat-label>
+        <input matInput [(ngModel)]="form.anio" name="anio" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Límite kWh</mat-label>
+        <input matInput [(ngModel)]="form.limiteKwh" name="limiteKwh" />
+      </mat-form-field>
+
+      <button mat-raised-button color="primary">Guardar</button>
+    </form>
+  </mat-card>
+</div>

@@ -1,0 +1,20 @@
+<h2>Añadir consumo</h2>
+
+<form (ngSubmit)="handleSubmit()">
+  <mat-form-field appearance="outline" class="full">
+    <mat-label>Mes</mat-label>
+    <input matInput [(ngModel)]="form.mes" name="mes" />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="full">
+    <mat-label>Año</mat-label>
+    <input matInput [(ngModel)]="form.anio" name="anio" />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="full">
+    <mat-label>kwh</mat-label>
+    <input matInput [(ngModel)]="form.kwh" name="kwh" />
+  </mat-form-field>
+
+  <button mat-raised-button color="primary">Guardar</button>
+</form>

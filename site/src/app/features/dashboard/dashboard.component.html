@@ -1,0 +1,46 @@
+<h2>Dashboard</h2>
+
+<div class="grid">
+  <mat-card>
+    <mat-card-title>Último consumo</mat-card-title>
+    <mat-card-content>
+      <p>
+        {{
+          ultimoConsumo
+            ? ultimoConsumo.kwh +
+              " kwh (" +
+              ultimoConsumo.mes +
+              "/" +
+              ultimoConsumo.anio +
+              ")"
+            : "Sin datos"
+        }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title>Objetivo actual</mat-card-title>
+    <mat-card-content>
+      <p>
+        {{
+          ultimoObjetivo
+            ? ultimoObjetivo.limiteKwh +
+              " kwh (" +
+              ultimoObjetivo.mes +
+              "/" +
+              ultimoObjetivo.anio +
+              ")"
+            : "Sin objetivo definido"
+        }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<mat-card class="mt">
+  <mat-card-title>Evolución del consumo</mat-card-title>
+  <mat-card-content>
+    <canvas baseChart [data]="chartData" [type]="'line'"></canvas>
+  </mat-card-content>
+</mat-card>

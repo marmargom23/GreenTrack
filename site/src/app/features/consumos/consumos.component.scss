@@ -1,0 +1,16 @@
+.grid {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+.full {
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav #sidenav mode="side" [opened]="isDesktop" class="sidenav">
+    <h2 class="title">GreenTrack</h2>
+
+    <mat-nav-list>
+      <a mat-list-item routerLink="/" routerLinkActive="active">Dashboard</a>
+      <a mat-list-item routerLink="/consumo" routerLinkActive="active"
+        >Mi consumo</a
+        >
+        <a mat-list-item routerLink="/objetivos" routerLinkActive="active"
+          >Objetivos</a
+          >
+          <a mat-list-item routerLink="/recomendaciones" routerLinkActive="active"
+            >Recomendaciones</a
+            >
+            <a mat-list-item (click)="logout()">Cerrar sesión</a>
+          </mat-nav-list>
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+          <mat-toolbar color="primary" class="toolbar">
+            @if (!isDesktop) {
+              <button
+                mat-icon-button
+                (click)="sidenav.toggle()"
+                class="menu-btn"
+                >
+                <mat-icon>menu</mat-icon>
+              </button>
+            }
+
+            <span>GreenTrack</span>
+          </mat-toolbar>
+
+          <div class="content">
+            <router-outlet></router-outlet>
+          </div>
+        </mat-sidenav-content>
+      </mat-sidenav-container>

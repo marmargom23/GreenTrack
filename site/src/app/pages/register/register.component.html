@@ -1,0 +1,45 @@
+<div class="register-container">
+  <mat-card class="card">
+    <h2>Registro</h2>
+
+    <form (ngSubmit)="handleSubmit()">
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Nombre</mat-label>
+        <input matInput [(ngModel)]="nombre" name="nombre" autocomplete="off" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Correo</mat-label>
+        <input
+          matInput
+          type="email"
+          [(ngModel)]="email"
+          name="email"
+          autocomplete="off"
+        />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full">
+        <mat-label>Contraseña</mat-label>
+        <input
+          matInput
+          type="password"
+          [(ngModel)]="password"
+          name="password"
+          autocomplete="new-password"
+        />
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" class="full">
+        Registrarse
+      </button>
+    </form>
+
+    <div class="mt register">
+      <small>
+        ¿Ya tienes cuenta?
+        <a (click)="goLogin()">Inicia sesión</a>
+      </small>
+    </div>
+  </mat-card>
+</div>
