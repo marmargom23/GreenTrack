@@ -1,18 +1,103 @@
-# Node
-node_modules/
+############################################################
+#                     GLOBAL SETTINGS
+############################################################
 
-# Backend
-backend/node_modules/
-backend/.env
-
-# Frontend
-frontend/node_modules/
-frontend/.env
+# OS files
+.DS_Store
+Thumbs.db
 
 # Logs
+*.log
+logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build
-frontend/build/
+############################################################
+#                     FRONTEND (Angular 21)
+############################################################
+
+# Angular build output
+/dist/
+/out-tsc/
+/.angular/
+
+# Node modules
+/node_modules/
+
+# Environment files (if used)
+src/environments/*.local.ts
+src/environments/*.prod.ts
+
+# Angular cache
+.angular/cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+############################################################
+#                     BACKEND (Spring Boot)
+############################################################
+
+# Maven target directory
+/target/
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+
+# Spring Boot config (if sensitive)
+application-local.properties
+application-secret.properties
+
+# H2 database files (if persisted)
+*.mv.db
+*.h2.db
+
+############################################################
+#                     JAVA / MAVEN
+############################################################
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Java
+*.class
+*.iml
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+############################################################
+#                     OTHER
+############################################################
+
+# Temporary files
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.old
+
+# Output folders
+/bin/
+/build/
+
+############################################################
+#                     END OF FILE
+############################################################
