@@ -38,7 +38,7 @@ El sistema está dividido en:
 ![Dashboard](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/dashboard.png)
 
 ## ⚡ Gestión de Consumos
-![Consumo](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/consumo.png)
+![Consumo](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/consumo.png)
 
 ## 🎯 Gestión de Objetivos
 ![Objetivos](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/objetivos.png)
