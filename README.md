@@ -184,13 +184,6 @@ Carpetas eliminadas:
 
 ---
 
-## 📜 Licencia
-
-Proyecto desarrollado como entrega académica.  
-Puede modificarse y adaptarse libremente.
-
----
-
 ## 👤 Autor
 
 Mario  
