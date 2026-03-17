@@ -65,23 +65,23 @@ El sistema está dividido en:
 ---
 
 ## 🧩 Arquitectura del Frontend (Angular 21)
-src/app
-├─ app.component.*
-├─ app.routes.ts
-├─ core/
-│  ├─ guards/
-│  ├─ interceptors/
-│  └─ services/
-├─ layout/
-├─ pages/
-├─ features/
-│  ├─ consumos/
-│  ├─ dashboard/
-│  ├─ objetivos/
-│  └─ recomendaciones/
-├─ services/
-├─ models/
-└─ shared/
+- src/app
+- ├─ app.component.*
+- ├─ app.routes.ts
+- ├─ core/
+- │  ├─ guards/
+- │  ├─ interceptors/
+- │  └─ services/
+- ├─ layout/
+- ├─ pages/
+- ├─ features/
+- │  ├─ consumos/
+- │  ├─ dashboard/
+- │  ├─ objetivos/
+- │  └─ recomendaciones/
+- ├─ services/
+- ├─ models/
+- └─ shared/
 
 
 ### Funcionamiento
@@ -95,18 +95,18 @@ src/app
 
 ## 🗄 Arquitectura del Backend (Spring Boot 3)
 
-com.greentrack.api
-├─ config/
-├─ controller/
-├─ dto/
-├─ errors/
-├─ mapper/
-├─ model/
-├─ repository/
-├─ security/
-├─ service/
-├─ util/
-└─ validators/
+- com.greentrack.api
+- ├─ config/
+- ├─ controller/
+- ├─ dto/
+- ├─ errors/
+- ├─ mapper/
+- ├─ model/
+- ├─ repository/
+- ├─ security/
+- ├─ service/
+- ├─ util/
+- └─ validators/
 
 
 ### Funcionamiento
@@ -127,7 +127,7 @@ Características:
 - Perfecta para proyectos académicos
 
 Consola H2:
-http://localhost:8080/h2-console
+- http://localhost:8080/h2-console
 
 
 ---
@@ -135,16 +135,16 @@ http://localhost:8080/h2-console
 ## ▶ Ejecución del proyecto
 
 ### Frontend
-npm install
-ng serve
+- npm install
+- ng serve
 
 Disponible en:
 http://localhost:4200
 
 
 ### Backend
-mvn clean install
-mvn spring-boot:run
+- mvn clean install
+- mvn spring-boot:run
 
 Disponible en:
 http://localhost:8080
@@ -154,15 +154,15 @@ http://localhost:8080
 
 ## 📁 Estructura del proyecto
 
-/frontend
-/src
-angular.json
-package.json
+- /frontend
+- /src
+- angular.json
+- package.json
 
-/backend
-/src
-pom.xml
-application.properties
+- /backend
+- /src
+- pom.xml
+- application.properties
 
 
 Carpetas eliminadas:
