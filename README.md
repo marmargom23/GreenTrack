@@ -1,7 +1,5 @@
 # 🌱 GreenTrack — Gestión Inteligente del Consumo Energético
 
-![Banner del Proyecto](https://raw.githubusercontent.com/microsoft/fluentui/master/assets/brand/fluentui-banner.png)
-
 [![Angular](https://img.shields.io/badge/Angular-21-red?logo=angular&logoColor=white)]()
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen?logo=springboot&logoColor=white)]()
 [![Java](https://img.shields.io/badge/Java-17-orange?logo=oracle&logoColor=white)]()
