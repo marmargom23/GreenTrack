@@ -28,16 +28,24 @@ El sistema está dividido en:
 
 ## 🖼️ Vista previa del proyecto
 
-### 🔐 Pantalla de Login
-![Login](https://dummyimage.com/900x400/222/fff&text=Login+Screen)
+## 🔐 Pantalla de Login
+![Login](https://raw.githubusercontent.com/marmargom23/GreenTrack/site/src/assets/login.png)
 
-### 📊 Dashboard
-![Dashboard](https://dummyimage.com/900x400/333/fff&text=Dashboard)
+## 📝 Pantalla de Registro
+![Registro](https://raw.githubusercontent.com/marmargom23/GreenTrack/site/src/assets/registro.png)
 
-### ⚡ Gestión de Consumos
-![Consumos](https://dummyimage.com/900x400/444/fff&text=Consumos)
+## 📊 Dashboard
+![Dashboard](https://raw.githubusercontent.com/marmargom23/GreenTrack/site/src/assets/dashboard.png)
 
-*(Puedes reemplazar estas imágenes por capturas reales de tu proyecto.)*
+## ⚡ Gestión de Consumos
+![Consumo](https://raw.githubusercontent.com/marmargom23/GreenTrack/site/src/assets/consumo.png)
+
+## 🎯 Gestión de Objetivos
+![Objetivos](https://raw.githubusercontent.com/marmargom23/GreenTrack/site/src/assets/objetivos.png)
+
+## 💡 Recomendaciones
+![Recomendaciones](https://raw.githubusercontent.com/marmargom23/GreenTrack/site/src/assets/recomendaciones.png)
+
 
 ---
 
