@@ -29,7 +29,7 @@ El sistema está dividido en:
 ## 🖼️ Vista previa del proyecto
 
 ## 🔐 Pantalla de Login
-![Login](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/login.png)
+![Login](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/login.png)
 
 ## 📝 Pantalla de Registro
 ![Registro](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/registro.png)
