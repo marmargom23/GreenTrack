@@ -32,19 +32,19 @@ El sistema está dividido en:
 ![Login](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/login.png)
 
 ## 📝 Pantalla de Registro
-![Registro](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/registro.png)
+![Registro](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/registro.png)
 
 ## 📊 Dashboard
-![Dashboard](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/dashboard.png)
 
 ## ⚡ Gestión de Consumos
-![Consumo](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/consumo.png)
+![Consumo](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/consumo.png)
 
 ## 🎯 Gestión de Objetivos
-![Objetivos](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/objetivos.png)
+![Objetivos](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/objetivos.png)
 
 ## 💡 Recomendaciones
-![Recomendaciones](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/app/assets/recomendaciones.png)
+![Recomendaciones](https://raw.githubusercontent.com/marmargom23/GreenTrack/main/site/src/assets/recomendaciones.png)
 
 
 
